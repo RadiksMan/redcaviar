@@ -43,14 +43,18 @@ function scrollUp(block,targetBlock) {
 	});
 }
 function headerMenu(){
+    var normalHeight;
+
     $(document).on('click','.header-menu-button a',function(e){
         e.preventDefault();
         $('.header-menu-main').slideToggle();
+        normalHeight = $('.header-menu-main-wrap>ul').height();
+        $('.header-menu-main-wrap>ul').height(normalHeight);
         console.log('123');
     });
 
     $(document).on('click','.header-menu-main-wrap>ul>li.has-submenu>a',function(e){
-        e.preventDefault();
+            e.preventDefault();
             $(this).parent().find('.sub-menu').addClass('active');
             $('.header-menu-main-wrap>ul').addClass('active');
 
@@ -60,7 +64,7 @@ function headerMenu(){
             $('.sub-menu.active').find('li:first-child').prepend( "<span class='button-back'>Назад</span>");
 
             $(document).on('click','.button-back',function(){
-                $('.header-menu-main-wrap>ul').removeAttr('style');
+                $('.header-menu-main-wrap>ul').height(normalHeight);
                 setTimeout(function(){
                     $(this).parent().parent().removeClass('active');
                 },300);
