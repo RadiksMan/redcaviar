@@ -36,7 +36,7 @@ function scrollUp(block,targetBlock) {
 	$(block).click(function(e){
 		var target = $(targetBlock).offset().top;
 
-		$(scroller).animate({scrollTop:target},800);
+		$(scroller).animate({scrollTop:target},400);
 		return false;
 
 		e.preventDefault();
@@ -78,7 +78,8 @@ function headerMenu(){
 $(document).ready(function() {
     headerMenu();
 	modernize();
-	$('.footer_placeholder').height($('.footer').outerHeight());
+	// $('.footer_placeholder').height($('.footer').outerHeight());
+    scrollUp($('.footer-last-button-up a'),$('.header-full-version'));
 
 });
 
