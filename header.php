@@ -185,7 +185,6 @@
                                     </li>
                                 </ul>
                             </div>
-                            Lorem ipsum dolor sit amet, consectetur adipisicing elit. Rem, molestiae.
                         </div>
                     </div>
                 </div>
