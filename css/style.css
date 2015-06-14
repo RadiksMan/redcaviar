@@ -25,10 +25,6 @@ img{vertical-align:bottom;border:0;max-width:100%;}
 /* /base styles */
 
 
-/* icons styling*/
-/* /icons styling*/
-
-
 /* base typo*/
 .ctext h1,.ctext h2,.ctext h3,.ctext h4,.ctext h5,.mainheading,.subheading,.thirdheading,.fourheading,.fiveheading{font-weight:normal;margin-bottom:1em;}
 a{color:#12c;border:0;}
@@ -101,7 +97,7 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .header-menu-cart{float: left;width: 25%;text-align: center;padding: 27px 0px;border-left: 1px solid #fff;box-sizing:border-box;}
 .header-menu-search {float: left;width: 50%;box-sizing:border-box;}
 .header-menu-search input{font-family: 'Open Sans', sans-serif;height: 72px;border: none;outline: none;border-radius: 6px;color: #cccccc;font-size: 22px;padding-left: 34px;box-sizing: border-box;width: 100%;}
-.header-menu-row{background-color: #ee8413;}
+.header-menu-row{background-color: #ee8413;  border-bottom: 1px solid white;}
 .header-menu-search-wrap{  padding: 10px 14px 10px 14px;}
 .header-menu-search input::-webkit-input-placeholder {color:#cccccc;}
 .header-menu-search input:-moz-placeholder {color:#cccccc;}
@@ -132,7 +128,6 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .footer-top-desc-item.item-2{width: 53%;}
 .footer-top-desc-item-img{display: inline-block;margin-right: 13px;}
 .footer-top-desc-item-text{display: inline-block;vertical-align: top;font-size: 23px;color: #000;}
-
 .footer-letter-form{padding-top: 20px;padding-top: 62px;}
 .footer-letter-form-wrap{background-color: #49c4e2;box-shadow:0 3px 21px 10px #a4a4a4, 0 3px 12px 1px #a4a4a4;-webkit-box-shadow:0 3px 21px 10px #a4a4a4, 0 3px 12px 1px #a4a4a4;-moz-box-shadow:0 3px 21px 10px #a4a4a4, 0 3px 12px 1px #a4a4a4;padding-top: 19px;padding-bottom: 39px;}
 .footer-letter-form-title{text-align: center;margin:0 auto;max-width: 400px;color: #fff;font-size: 24px;line-height: 27px;}
@@ -156,20 +151,184 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .footer-last-button-call span{text-decoration: underline;color: #666666;font-size: 20px;font-size: 25px;line-height: 27px;}
 .footer-last-button{padding: 35px 35px 29px 28px;box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);-webkit-box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);-moz-box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);}
 .footer-last-button-up{text-align: right;}
-
-
+.visited-tovars-title{color: #e86608;}
 /*/Footer*/
-
-
-
-
-
-
-
-
-
+/*Main index*/
 .main-href {text-align: center;padding-bottom: 17px;}
 .main-href li{border-bottom: 1px solid #e5e5e5;}
 .main-href li:last-child{border-bottom: none;}
 .main-href li a{font-size: 30px;font-family: 'Myriad Pro';color: #000;display: block;padding: 34px 0px 23px 0px;}
 .main-href li a:hover,.main-href li a:active{text-decoration: none;}
+/*/Main index*/
+
+/*dostavka*/
+.title-text-blue{font-family: Tahoma;color: #25b9ef;text-align: center;font-size: 37px;}
+.delivery-wrap{padding: 26px 43px 38px 43px;}
+.delivery-title.title-text-blue{padding-bottom: 25px;}
+.delivery-text{}
+.delivery-text p{font-size: 25px;color: #333333;margin-bottom: 35px;line-height: 27px;}
+.delivery-text p span{font-weight: bold;}
+.delivery-text p a{font-weight: bold;color: #333333;text-decoration: none;}
+/*/dostavka*/
+
+/*category*/
+.categoty{}
+.category-wrap{position: relative;padding-top: 17px;padding-bottom: 55px;}
+.category-button-back{position: absolute;top: 44px;left: 29px;width: 18px;height: 33px;}
+.category-button-back a{display: block;}
+.category-wrap .category-title{max-width: 420px;margin: 0 auto;line-height: 41px;padding-bottom: 30px;}
+.category-middle{padding: 0px 64px 34px 64px;}
+.category-row{padding-bottom: 56px;}
+.category-item{float: left;width: 50%;color: #1a1a1a;text-align: center;}
+.category-item-wrap{max-width: 215px;margin:0 auto;}
+.category-item-title{font-size: 22px;padding-top: 19px;
+font-family: Tahoma;line-height: 24px;}
+.category-item-masa{padding-top: 24px;}
+.category-item-masa img,.category-item-masa span{display: inline-block;vertical-align: middle;font-size: 22px;}
+.category-item-masa img{margin-right: 3px;}
+.category-item-price{padding-top: 20px;padding-bottom: 19px;}
+.category-item-price span{color: #e2752e;font-weight: bold;font-size: 26px;}
+.category-item-cart{}
+.category-item-cart a{background-color: #36abd5;color: #fff;font-size: 16px;padding: 12px 17px 12px 17px;line-height: 16px;border-radius: 5px;text-decoration: none;display: inline-block;}
+.category-item-cart a img,.category-item-cart a span{display: inline-block;  vertical-align: text-top;}
+.category-item-cart a img{margin-right: 8px;vertical-align: bottom;}
+
+.pagination{text-align: center;}
+.pagination li{display: inline-block;vertical-align: middle;padding: 0px 25px;}
+.pagination li a{display: block;text-decoration: none;color: #000;font-size: 36px;font-family: 'Myriad Pro';}
+/*/category*/
+
+/*news*/
+.news-wrap{padding: 36px 77px 20px 77px;}
+.news-wrap .news-title{padding-bottom: 40px;}
+.news-item{border-bottom: 1px solid #808080;padding-bottom: 45px;margin-bottom: 33px;}
+.news-item-wrap .news-item:last-child{border-bottom: none;}
+.news-item a{display: block;text-decoration: none;}
+.news-item a:hover .news-description,.news-item a:target .news-description{color: #43bbdd;}
+.news-img{text-align: center;}
+.news-date{color: #b3b3b3;padding-top: 32px;padding-bottom: 25px;font-size: 24px}
+.news-description{color: #000;font-size: 33px;line-height: 38px;}
+/*/news*/
+
+/*news_information*/
+.information-wrap{padding: 36px 77px 68px 77px;}
+.information-item{padding-top: 38px;}
+.news-text{color: #666666;font-size: 29px;padding-top: 47px;line-height: 33px;}
+.news-text p{margin-bottom: 38px;}
+.information-button{}
+.information-button-back{float: left;}
+.information-button-next{float: right;}
+.information-button a{color: #000;font-size: 26px;}
+.block-social{text-align: right;padding-top: 22px;padding-bottom: 44px;}
+/*/news_information*/
+
+/*social*/
+.social-button{max-width: 220px;display: inline-block;}
+.social-share{}
+.social-share span,.social-share img{display: inline-block;vertical-align: middle;}
+.social-share img{margin-right: 10px;transition:all ease 300ms;-webkit-transition:all ease 300ms;-moz-transition:all ease 300ms;}
+.social-share span{font-size: 21px;text-decoration: underline;}
+.social-item-wrap{text-align: center;padding-top: 8px;padding-bottom: 10px;display: none;}
+.social-item{padding-bottom: 5px;}
+.social-item a{color: #000;text-decoration: none;display: block;}
+.social-item img,.social-item span{display: inline-block;vertical-align: middle;}
+.social-item img{margin-right: 10px;}
+.social-item span{font-size: 16px;}
+.social-share.active img{transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);}
+/*/social*/
+
+/*recepts*/
+.recepts-wrap{padding-top: 28px;padding-bottom: 48px;}
+.recepts-wrap .recepts-title{padding-bottom: 35px;}
+.recepts-items-wrap{padding-bottom: 23px;}
+.recepts-items{padding-bottom: 38px;}
+.recepts-items a{text-decoration: none;display: block;}
+.recepts-items-img{overflow: hidden;height: 255px;position: relative;}
+.recepts-items-img img{position: absolute;top: 48%;transform:translateY(-50%);}
+.recepts-items-descr{max-width: 440px;margin: -37px auto 0;display: block;background-color: #36abd5;color: #fff;font-size: 28px;padding: 17px 37px 22px 37px;text-align: center;position: relative;box-sizing: border-box;line-height: 34px;}
+/*/recepts*/
+
+/*recept_item*/
+.recept-item-wrap{padding-top: 32px;padding-bottom: 39px;}
+.recept-item-wrap .recepts-title{padding-bottom: 37px;}
+.recept-item-middle{padding: 36px 62px 16px 62px;}
+.ingredients-title{text-align: center;font-size: 37px;font-family: 'Myriad Pro';padding-bottom: 41px;}
+.ingredients-item{float: left;font-size: 25px;color: #333333;}
+.ingredients-item:first-child{width: 42%;box-sizing: border-box;padding-right: 15px;}
+.ingredients-item:last-child{width: 58%;}
+.ingredients-row{padding-bottom: 11px;}
+.recepts-items-text{font-size: 25px;padding-top: 24px;line-height: 28px;color: #333333;}
+.recepts-items-text p{margin-bottom: 32px;}
+
+.recept-item-bottom{text-align: center;}
+.recept-item-complexity{position: relative;display: inline-block;}
+.item-complexity-max{width: 192px;height: 25px;background: url(../images/povar-compexity.png);}
+.item-complexity{position: absolute;left: 0;top: 0;width: 0;overflow: hidden;height: 25px;background: url(../images/povar-compexity-max.png);}
+.recept-item-wrap .block-social{text-align: center;}
+.recept-item-time{}
+.recept-item-time-img,.recept-item-time-text{display: inline-block;vertical-align: middle;}
+.recept-item-time-text{text-align: left;  font-size: 22px;}
+.recept-item-time-text span{font-weight: bold;}
+.recept-item-time-img{margin-right: 10px;}
+.item-complexity-wrap{padding-top: 10px;padding-top: 41px;padding-bottom: 22px;}
+.recept-item-complexity-text{color: #999999;font-size: 21px;padding-bottom: 14px;}
+.recept-item-complexity-text span{color: #000;}
+.recept-item-wrap .information-button{padding: 0px 53px;}
+
+
+
+
+
+
+
+@media screen and (max-width:480px){
+    div.header-middle-item-bottom a{font-size: 29px;}
+    .footer-top-desc-item.item-1,.footer-top-desc-item.item-2{width: 100%;padding-left: 20%;padding-bottom: 5%;}
+    .footer-top-desc-item.item-1 .footer-top-desc-item-img{padding: 0;}
+    .footer-letter-form-submit input{font-size: 20px;}
+    .delivery-text p{font-size: 23px;line-height: 25px;margin-bottom: 30px;}
+    .category-middle {padding: 0px 15px 34px 15px;}
+    .category-item-wrap{padding: 0 10px;}
+    .news-wrap {padding: 36px 50px 20px 50px;}
+    .news-description{font-size: 27px;}
+    .news-date{font-size: 22px;}
+    .news-wrap .pagination li {padding: 0 21px;}
+    .news-text{font-size: 25px;}
+    .information-wrap{padding: 36px 50px 68px 50px;}
+    .recept-item-middle {padding: 36px 45px 16px 45px;}
+}
+
+@media screen and (max-width:320px){
+    .header-middle-item{float: none;width: 100%;text-align: center;}
+    .header-middle-item-top{padding-left: 0;}
+    .header-middle-item-middle{text-align: center;}
+    .footer-top-desc-item-text{font-size: 19px;}
+    .footer-top-desc-item.item-1,.footer-top-desc-item.item-2{padding-left: 10%;}
+    .footer-letter-form-wrap{padding-left: 10px;padding-right: 10px;}
+    .footer-letter-form-input{width: 100%;margin-bottom: 7%;}
+    .footer-letter-form-submit{width: 100%;}
+    .header-menu-button{float: none;position: absolute;bottom: 0;left: 0;right: 0;width: 100%;border-right: none;border-top:1px solid white;padding-left: 10%;text-align: left;}
+    .header-menu-row {padding-bottom: 94px;position: relative;}
+    .header-menu-search {width: 75%;}
+    .header-menu-search input{font-size: 20px;}
+    .delivery-text p{font-size: 18px;line-height: 22px;margin-bottom: 20px;}
+    .delivery-wrap {padding: 26px 20px 38px 20px;}
+    .category-item{width: 100%;float: none;padding-bottom: 50px;}
+    .category-row{padding-bottom: 0;}
+    .category-wrap .category-title{padding-top: 87px;padding-left: 5px;padding-right: 5px;}
+    .pagination li{padding: 0 14px;}
+    .news-wrap {padding: 36px 32px 20px 32px;}
+    .news-description{font-size: 19px;line-height: 25px;}
+    .news-date{font-size: 20px;}
+    .news-wrap .pagination li {padding: 0 11px;}
+    .news-text{font-size: 19px;line-height: 23px;}
+    .information-wrap{padding: 36px 30px 68px 30px;}
+    .block-social {text-align: center;}
+    .information-button a {font-size: 20px;}
+    .recepts-items-descr{  padding: 17px 15px 22px 15px;font-size: 25px;line-height: 28px;}
+    .recept-item-middle {padding: 36px 25px 16px 25px;}
+    .ingredients-item{font-size: 20px;}
+    .recepts-items-text{font-size: 19px;line-height: 21px;}
+    .recept-item-time-text{font-size: 20px;}
+    .recept-item-wrap .information-button {padding: 0px 28px;}
+}

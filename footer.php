@@ -4,6 +4,13 @@
 		<div class="mbox">
             <div class="footer-wrap">
                 <div class="footer-top-line"></div>
+
+                <div class="footer-visited-tovars">
+                    <div class="visited-tovars-wrap">
+                        <div class="visited-tovars-title">Просмотренные товары</div>
+                    </div>
+                </div>
+
                 <div class="footer-top-desc cfix">
                     <div class="footer-top-desc-item item-1">
                         <div class="footer-top-desc-item-img"><img src="images/footer-top-desc-item-1.png"  alt=""></div>
