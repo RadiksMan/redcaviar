@@ -8,6 +8,65 @@
                 <div class="footer-visited-tovars">
                     <div class="visited-tovars-wrap">
                         <div class="visited-tovars-title">Просмотренные товары</div>
+                        <div class="visited-tovars-slider">
+                            <div class="category-item">
+                                <div class="category-item-wrap">
+                                    <div class="category-item-img">
+                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
+                                    </div>
+                                    <div class="category-item-title">
+                                       Икра по Сканднавски донных пород 30гр.
+                                    </div>
+                                    <div class="category-item-price">
+                                        <span>650</span>&nbsp;<span>руб.</span>
+                                    </div>
+                                    <div class="category-item-cart">
+                                        <a href="#">
+                                            <img src="images/category-item-cart-img.png" alt="">
+                                            <span>В корзину</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-item-wrap">
+                                    <div class="category-item-img">
+                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
+                                    </div>
+                                    <div class="category-item-title">
+                                       Икра по Сканднавски донных пород 30гр.
+                                    </div>
+                                    <div class="category-item-price">
+                                        <span>650</span>&nbsp;<span>руб.</span>
+                                    </div>
+                                    <div class="category-item-cart">
+                                        <a href="#">
+                                            <img src="images/category-item-cart-img.png" alt="">
+                                            <span>В корзину</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="category-item">
+                                <div class="category-item-wrap">
+                                    <div class="category-item-img">
+                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
+                                    </div>
+                                    <div class="category-item-title">
+                                       Икра по Сканднавски донных пород 30гр.
+                                    </div>
+                                    <div class="category-item-price">
+                                        <span>650</span>&nbsp;<span>руб.</span>
+                                    </div>
+                                    <div class="category-item-cart">
+                                        <a href="#">
+                                            <img src="images/category-item-cart-img.png" alt="">
+                                            <span>В корзину</span>
+                                        </a>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
                     </div>
                 </div>
 

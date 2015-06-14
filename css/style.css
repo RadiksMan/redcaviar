@@ -151,7 +151,20 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .footer-last-button-call span{text-decoration: underline;color: #666666;font-size: 20px;font-size: 25px;line-height: 27px;}
 .footer-last-button{padding: 35px 35px 29px 28px;box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);-webkit-box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);-moz-box-shadow: 0 8px 17px 7px rgba(0,0,0,0.8);}
 .footer-last-button-up{text-align: right;}
-.visited-tovars-title{color: #e86608;}
+.visited-tovars-title{color: #e86608;text-align: center;font-size: 37px;padding-top: 10px;padding-bottom: 60px;}
+.footer-visited-tovars .category-item-wrap{max-width: 245px;}
+.visited-tovars-slider {padding: 0px 35px;}
+.visited-tovars-slider .category-item-title {padding-top: 8px;font-size: 20px;}
+.visited-tovars-slider .category-item-price {padding-top: 6px;padding-bottom: 15px;}
+.visited-tovars-slider .category-item-price span {font-weight: normal;}
+
+.footer-visited-tovars .slick-prev,.footer-visited-tovars .slick-next{width: 16px;height: 55px;background: url(../images/footer-slider-arrow-prev.png) center center no-repeat;top: 32%;}
+.footer-visited-tovars .slick-prev {left: 16px;}
+.footer-visited-tovars .slick-next {right: 16px;background: url(../images/footer-slider-arrow-next.png) center center no-repeat;}
+.footer-visited-tovars .slick-prev:before, .footer-visited-tovars .slick-next:before{display: none;}
+
+
+
 /*/Footer*/
 /*Main index*/
 .main-href {text-align: center;padding-bottom: 17px;}
@@ -274,7 +287,7 @@ font-family: Tahoma;line-height: 24px;}
 .recept-item-complexity-text{color: #999999;font-size: 21px;padding-bottom: 14px;}
 .recept-item-complexity-text span{color: #000;}
 .recept-item-wrap .information-button{padding: 0px 53px;}
-
+/*/recept_item*/
 
 
 
@@ -296,6 +309,7 @@ font-family: Tahoma;line-height: 24px;}
     .news-text{font-size: 25px;}
     .information-wrap{padding: 36px 50px 68px 50px;}
     .recept-item-middle {padding: 36px 45px 16px 45px;}
+    .visited-tovars-slider .category-item-title {padding-top: 8px;font-size: 18px;}
 }
 
 @media screen and (max-width:320px){
@@ -331,4 +345,6 @@ font-family: Tahoma;line-height: 24px;}
     .recepts-items-text{font-size: 19px;line-height: 21px;}
     .recept-item-time-text{font-size: 20px;}
     .recept-item-wrap .information-button {padding: 0px 28px;}
+    .visited-tovars-slider{padding: 0px 45px;}
+    .visited-tovars-slider .category-item {width: 50%; float: left; padding-bottom: 5px;}
 }

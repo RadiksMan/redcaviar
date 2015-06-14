@@ -86,6 +86,28 @@ function itemRank(){
     });
 };
 
+function visitedTovarsSlider(){
+    $('.visited-tovars-slider').slick({
+        prevArrow:'<button type="button" class="slick-prev"></button>',
+        nextArrow:'<button type="button" class="slick-next"></button>',
+        autoplay:false,
+        autoplaySpeed:4000,
+        dots: false,
+        arrows:true,
+        centerPadding: '0px',
+        respondTo:'window',
+        slidesToShow: 2,
+        responsive: [
+            {
+              breakpoint: 480,
+              settings: {
+                slidesToShow: 1,
+              }
+            }
+          ]
+    });
+}
+
 /* DOCUMENT READY  */
 $(document).ready(function() {
     headerMenu();
@@ -94,6 +116,7 @@ $(document).ready(function() {
     scrollUp($('.footer-last-button-up a'),$('.header-full-version'));
     socialBooton();
     itemRank();
+    visitedTovarsSlider();
 });
 
 $(window).resize(function() {
