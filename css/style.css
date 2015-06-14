@@ -75,7 +75,7 @@ p{margin:0;}
 
 
 /*Header*/
-.header-wrap{}
+.header-wrap{overflow: hidden;}
 .header-full-version{background-color: #4d4d4d;}
 .header-full-version a{color:white;text-align: center;padding: 11px 0px 16px 0px;text-align: center;font-size: 25px;line-height: 36px;display: block;}
 .header-full-version a:hover{text-decoration: none;}
@@ -94,7 +94,8 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 
 .header-menu-button{float: left;width: 25%;text-align: center;border-right: 1px solid #fff;box-sizing:border-box;}
 .header-menu-button a{display: block; padding: 27px 0px;}
-.header-menu-cart{float: left;width: 25%;text-align: center;padding: 27px 0px;border-left: 1px solid #fff;box-sizing:border-box;}
+.header-menu-cart{float: left;width: 25%;text-align: center;border-left: 1px solid #fff;box-sizing:border-box;}
+.header-menu-cart a{padding: 27px 0px;display: block}
 .header-menu-search {float: left;width: 50%;box-sizing:border-box;}
 .header-menu-search input{font-family: 'Open Sans', sans-serif;height: 72px;border: none;outline: none;border-radius: 6px;color: #cccccc;font-size: 22px;padding-left: 34px;box-sizing: border-box;width: 100%;}
 .header-menu-row{background-color: #ee8413;  border-bottom: 1px solid white;}
