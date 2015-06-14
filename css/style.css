@@ -116,7 +116,7 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .sub-menu.active{display: block;opacity: 1;background-color: #ee8413;}
 .header-menu-main-wrap>ul{background-color: #ee8413;}
 .header-menu-main-wrap>ul.active{transform:translateX(-100%);-webkit-transform:translateX(-100%);-moz-transform:translateX(-100%);}
-.button-back{width: 100%;padding: 5px 0px;padding: 28px 37px;display: block;border-bottom: 1px solid white;font-weight: bold;}
+.button-back{width: 100%;padding: 5px 0px;padding: 28px 37px;display: block;border-bottom: 1px solid white;font-weight: bold;cursor: pointer;}
 /*/Header*/
 
 /*Footer*/

@@ -44,13 +44,16 @@ function scrollUp(block,targetBlock) {
 }
 function headerMenu(){
     var normalHeight;
-
+    var maybeHeight;
     $(document).on('click','.header-menu-button a',function(e){
         e.preventDefault();
         $('.header-menu-main').slideToggle();
         normalHeight = $('.header-menu-main-wrap>ul').height();
+        maybeHeight = $('.header-menu-main-wrap>ul>li').outerHeight()*$('.header-menu-main-wrap>ul>li').length;
+
         $('.header-menu-main-wrap>ul').height(normalHeight);
-        console.log('123');
+
+        console.log(maybeHeight);
     });
 
     $(document).on('click','.header-menu-main-wrap>ul>li.has-submenu>a',function(e){
@@ -64,7 +67,8 @@ function headerMenu(){
             $('.sub-menu.active').find('li:first-child').prepend( "<span class='button-back'>Назад</span>");
 
             $(document).on('click','.button-back',function(){
-                $('.header-menu-main-wrap>ul').height(normalHeight);
+                $('.header-menu-main-wrap>ul').height(maybeHeight);
+                //console.log(normalHeight);
                 setTimeout(function(){
                     $('.sub-menu').removeClass('active');
                 },300);
@@ -107,6 +111,37 @@ function visitedTovarsSlider(){
           ]
     });
 }
+function add_favorite(a) {
+  title=document.title;
+  url=document.location;
+  try {
+    // Internet Explorer
+    window.external.AddFavorite(url, title);
+  }
+  catch (e) {
+    try {
+      // Mozilla
+      window.sidebar.addPanel(title, url, "");
+    }
+    catch (e) {
+      // Opera и Firefox 23+
+      if (typeof(opera)=="object" || window.sidebar) {
+        a.rel="sidebar";
+        a.title=title;
+        a.url=url;
+        a.href=url;
+        return true;
+      }
+      else {
+        // Unknown
+        alert('Нажмите Ctrl-D чтобы добавить страницу в закладки');
+      }
+    }
+  }
+  return false;
+}
+
+
 
 /* DOCUMENT READY  */
 $(document).ready(function() {

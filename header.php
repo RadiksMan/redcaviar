@@ -72,7 +72,7 @@
                     </div>
                     <div class="header-middle-item">
                         <div class="header-middle-item-top">
-                            <a href="#">
+                            <a href="#" onclick="return add_favorite(this);">
                                 <span><img src="images/header-star.png" alt=""></span>Добавить в закладки
                             </a>
                         </div>
