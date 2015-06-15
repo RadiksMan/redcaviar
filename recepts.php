@@ -46,23 +46,13 @@
                     </a>
                 </div>
             </div>
-            <div class="pagination">
-                <ul class="pagination-wrap">
-                    <li>
-                      <a href="#" class="pag-prev">
-                        <span><img src="images/pag-prev.png" alt=""></span>
-                      </a>
-                    </li>
-                    <li><a href="#">1</a></li>
-                    <li><a href="#">2</a></li>
-                    <li><a href="#">3</a></li>
-                    <li><a href="#">4</a></li>
-                    <li>
-                      <a href="#" class="pag-next">
-                        <span><img src="images/pag-next.png" alt=""></span>
-                      </a>
-                    </li>
-                  </ul>
+            <div class="paginator">
+                <a href="#" class="paginator-prev"></a>
+                <span class="active">1</span>
+                <span><a href="#">2</a></span>
+                <span><a href="#">3</a></span>
+                <span><a href="#">4</a></span>
+                <a href="#" class="paginator-next"></a>
             </div>
         </div>
     </div>

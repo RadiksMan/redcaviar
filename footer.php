@@ -1,5 +1,4 @@
 	<!---BEGIN FOOTER -->
-    <div class="footer_placeholder"></div>
 	<footer class="footer">
 		<div class="mbox">
             <div class="footer-wrap">
@@ -8,63 +7,57 @@
                 <div class="footer-visited-tovars">
                     <div class="visited-tovars-wrap">
                         <div class="visited-tovars-title">Просмотренные товары</div>
-                        <div class="visited-tovars-slider">
-                            <div class="category-item">
-                                <div class="category-item-wrap">
-                                    <div class="category-item-img">
-                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
-                                    </div>
-                                    <div class="category-item-title">
-                                       Икра по Сканднавски донных пород 30гр.
-                                    </div>
-                                    <div class="category-item-price">
-                                        <span>650</span>&nbsp;<span>руб.</span>
-                                    </div>
-                                    <div class="category-item-cart">
-                                        <a href="#">
-                                            <img src="images/category-item-cart-img.png" alt="">
-                                            <span>В корзину</span>
-                                        </a>
-                                    </div>
+                        <div class="carousel" data-show="2" data-dots="false">
+                            <div class="carousel-item">
+                                <div class="category-item-img">
+                                    <a href="#">
+                                        <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="category-item-title">
+                                    <a href="#">Красная икра лососевая "Макаров"</a>
+                                </div>
+                                <div class="category-item-price">650 руб.</div>
+                                <div class="category-item-in-bucket">
+                                    <a href="" class="button blue-button">
+                                        <span class="carousel-button-img"></span>
+                                        <span class="carousel-button-text">В корзину</span>
+                                    </a>
                                 </div>
                             </div>
-                            <div class="category-item">
-                                <div class="category-item-wrap">
-                                    <div class="category-item-img">
-                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
-                                    </div>
-                                    <div class="category-item-title">
-                                       Икра по Сканднавски донных пород 30гр.
-                                    </div>
-                                    <div class="category-item-price">
-                                        <span>650</span>&nbsp;<span>руб.</span>
-                                    </div>
-                                    <div class="category-item-cart">
-                                        <a href="#">
-                                            <img src="images/category-item-cart-img.png" alt="">
-                                            <span>В корзину</span>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="carousel-item">
+                              <div class="category-item-img">
+                                  <a href="#">
+                                      <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                  </a>
+                              </div>
+                              <div class="category-item-title">
+                                  <a href="#">Красная икра лососевая "Макаров"</a>
+                              </div>
+                              <div class="category-item-price">650 руб.</div>
+                              <div class="category-item-in-bucket">
+                                  <a href="" class="button blue-button">
+                                      <span class="carousel-button-img"></span>
+                                      <span class="carousel-button-text">В корзину</span>
+                                  </a>
+                              </div>
                             </div>
-                            <div class="category-item">
-                                <div class="category-item-wrap">
-                                    <div class="category-item-img">
-                                        <img src="images/footer-visited-tovars-img.jpg" alt="">
-                                    </div>
-                                    <div class="category-item-title">
-                                       Икра по Сканднавски донных пород 30гр.
-                                    </div>
-                                    <div class="category-item-price">
-                                        <span>650</span>&nbsp;<span>руб.</span>
-                                    </div>
-                                    <div class="category-item-cart">
-                                        <a href="#">
-                                            <img src="images/category-item-cart-img.png" alt="">
-                                            <span>В корзину</span>
-                                        </a>
-                                    </div>
-                                </div>
+                            <div class="carousel-item">
+                              <div class="category-item-img">
+                                  <a href="#">
+                                      <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                  </a>
+                              </div>
+                              <div class="category-item-title">
+                                  <a href="#">Красная икра лососевая "Макаров"</a>
+                              </div>
+                              <div class="category-item-price">650 руб.</div>
+                              <div class="category-item-in-bucket">
+                                  <a href="" class="button blue-button">
+                                      <span class="carousel-button-img"></span>
+                                      <span class="carousel-button-text">В корзину</span>
+                                  </a>
+                              </div>
                             </div>
                         </div>
                     </div>
@@ -136,6 +129,6 @@
             </div>
 		</div>
 	</footer>
-    <!---END FOOTER -->
+  <!---END FOOTER -->
 </body>
 </html>

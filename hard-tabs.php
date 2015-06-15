@@ -558,7 +558,7 @@
                             <div class="carousel third-carousel" data-dots=false data-show="1">
                                 <div class="carousel-item">
                                     <div class="carousel-video">
-                                        тут будет видео
+                                        <iframe width="auto" height="275" src="https://www.youtube.com/embed/qba8Hm4gdVw" frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <div class="carousel-item-title">Фасовка красной икры</div>
                                     <div class="carousel-item-footer cfix">
@@ -574,15 +574,38 @@
                                             </a>
                                         </div>
                                         <div class="carousel-item-share-link">
-                                            <a href="#">
-                                                <span class="share-icon"></span><span class="share-text">Поделиться</span>
-                                            </a>
+                                            <div class="social-button">
+                                              <div class="social-share">
+                                                  <img src="images/social-share-img.png" alt="">
+                                                  <span>Поделиться</span>
+                                              </div>
+                                              <div class="social-item-wrap">
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
                                 <div class="carousel-item">
                                     <div class="carousel-video">
-                                        тут будет видео
+                                       <iframe width="auto" height="275" src="https://www.youtube.com/embed/qba8Hm4gdVw" frameborder="0" allowfullscreen></iframe>
                                     </div>
                                     <div class="carousel-item-title">Фасовка красной икры</div>
                                     <div class="carousel-item-footer cfix">
@@ -598,9 +621,32 @@
                                             </a>
                                         </div>
                                         <div class="carousel-item-share-link">
-                                            <a href="#">
-                                                <span class="share-icon"></span><span class="share-text">Поделиться</span>
-                                            </a>
+                                            <div class="social-button">
+                                              <div class="social-share">
+                                                  <img src="images/social-share-img.png" alt="">
+                                                  <span>Поделиться</span>
+                                              </div>
+                                              <div class="social-item-wrap">
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                                  <div class="social-item">
+                                                      <a href="#">
+                                                          <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                          <span class="social-item-name">SocialName</span>
+                                                      </a>
+                                                  </div>
+                                              </div>
+                                            </div>
                                         </div>
                                     </div>
                                 </div>
@@ -655,25 +701,42 @@
                                             <p><span>30 мин.</span></p>
                                         </div>
                                     </div>
-                                    <div class="carousel-is-hard">
-                                        <div class="carousel-is-hard-text">
-                                            <p>
+                                    <div class="item-complexity-wrap">
+                                        <div class="recept-item-complexity-text">
                                                 Сложность: <span>Несложный</span>
-                                            </p>
-                                        </div>
-                                        <div class="carousel-is-hard-line">
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon"></span>
-                                            <span class="carousel-is-hard-icon"></span>
+                                            </div>
+                                        <div class="recept-item-complexity" data-rank="3">
+                                            <div class="item-complexity-max"></div>
+                                            <div class="item-complexity"></div>
                                         </div>
                                     </div>
-                                    <div class="carousel-share">
-                                        <a href="#">
-                                            <span class="share-icon"></span>
-                                            <span class="share-text">Поделиться</span>
-                                        </a>
+                                    <div class="block-social">
+                                       <div class="social-button">
+                                           <div class="social-share">
+                                               <img src="images/social-share-img.png" alt="">
+                                               <span>Поделиться</span>
+                                           </div>
+                                           <div class="social-item-wrap">
+                                               <div class="social-item">
+                                                   <a href="#">
+                                                       <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                       <span class="social-item-name">SocialName</span>
+                                                   </a>
+                                               </div>
+                                               <div class="social-item">
+                                                   <a href="#">
+                                                       <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                       <span class="social-item-name">SocialName</span>
+                                                   </a>
+                                               </div>
+                                               <div class="social-item">
+                                                   <a href="#">
+                                                       <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                       <span class="social-item-name">SocialName</span>
+                                                   </a>
+                                               </div>
+                                           </div>
+                                       </div>
                                     </div>
                                     <div class="carousel-button">
                                         <a href="#" class="button">Подробнее</a>
@@ -693,26 +756,43 @@
                                             <p><span>30 мин.</span></p>
                                         </div>
                                     </div>
-                                    <div class="carousel-is-hard">
-                                        <div class="carousel-is-hard-text">
-                                            <p>
-                                                Сложность: <span>Несложный</span>
-                                            </p>
-                                        </div>
-                                        <div class="carousel-is-hard-line">
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon active"></span>
-                                            <span class="carousel-is-hard-icon"></span>
-                                            <span class="carousel-is-hard-icon"></span>
-                                        </div>
-                                    </div>
-                                    <div class="carousel-share">
-                                        <a href="#">
-                                            <span class="share-icon"></span>
-                                            <span class="share-text">Поделиться</span>
-                                        </a>
-                                    </div>
+                                   <div class="item-complexity-wrap">
+                                       <div class="recept-item-complexity-text">
+                                               Сложность: <span>Несложный</span>
+                                           </div>
+                                       <div class="recept-item-complexity" data-rank="3">
+                                           <div class="item-complexity-max"></div>
+                                           <div class="item-complexity"></div>
+                                       </div>
+                                   </div>
+                                   <div class="block-social">
+                                      <div class="social-button">
+                                          <div class="social-share">
+                                              <img src="images/social-share-img.png" alt="">
+                                              <span>Поделиться</span>
+                                          </div>
+                                          <div class="social-item-wrap">
+                                              <div class="social-item">
+                                                  <a href="#">
+                                                      <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                      <span class="social-item-name">SocialName</span>
+                                                  </a>
+                                              </div>
+                                              <div class="social-item">
+                                                  <a href="#">
+                                                      <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                      <span class="social-item-name">SocialName</span>
+                                                  </a>
+                                              </div>
+                                              <div class="social-item">
+                                                  <a href="#">
+                                                      <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                                      <span class="social-item-name">SocialName</span>
+                                                  </a>
+                                              </div>
+                                          </div>
+                                      </div>
+                                   </div>
                                     <div class="carousel-button">
                                         <a href="#" class="button">Подробнее</a>
                                     </div>

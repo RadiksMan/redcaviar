@@ -85,7 +85,7 @@
 .paginator{text-align: justify;margin-bottom: 20px;}
 .paginator:after{content:'';width: 100%;height: 0;display: inline-block;text-align: justify;}
 .paginator a, .paginator span{display: inline-block;vertical-align: middle;}
-.paginator span a{margin-top: -8px;}
+.paginator span a{margin-top: 2px;}
 .paginator span.active{color:#e2752e;}
 .paginator-prev, .paginator-next{width: 16px;height: 55px;background-image:url(../images/carousel-arrows.png);transform:scale(.75);-webkit-transform:scale(.75);-moz-transform:scale(.75);-khtml-transform:scale(.75);}
 .paginator-prev{background-position: left top;}
@@ -133,6 +133,7 @@
 .carousel.third-carousel .slick-dots{bottom:-20px;}
 
 .carousel-video{margin-bottom: 40px;}
+.carousel-video iframe{width: 100%;}
 .carousel-item-title{font-family: Tahoma, sans-serif;color:#000000;font-size:29px;text-align: left;margin-bottom: 30px;}
 .carousel-item-footer{display: table;width: 100%;}
 .carousel-item-footer>div{display: table-cell;vertical-align: middle;}
@@ -172,7 +173,7 @@
 .carousel-share .share-icon{transform:rotate(90deg);-webkit-transform:rotate(90deg);-moz-transform:rotate(90deg);-khtml-transform:rotate(90deg);}
 .carousel-share a:hover .share-icon{opacity: .7;}
 .carousel-share a:hover .share-text{color:orange;}
-
+.hard-tabs-footer-carousel .block-social{text-align: center;}
 /* /hard-tabs */
 
 /* bucket */

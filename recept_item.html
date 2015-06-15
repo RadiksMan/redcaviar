@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <meta name="description" content="" />
+    <meta name="keywords" content="" />
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title></title>
+    <link rel="stylesheet" type="text/css" href="css/reset.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/slick-theme.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/slick.css" media="all" />
+    <link rel="stylesheet" type="text/css" href="css/style.css" media="all" />
+
+    <link href='http://fonts.googleapis.com/css?family=Open+Sans:400italic,400,700&subset=cyrillic,latin' rel='stylesheet' type='text/css'>
+
+    <script src="js/jquery-1.10.0.min.js" type="text/javascript"></script>
+
+    <script src="js/selectivizr-min.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="css/jquery.znice.css" media="all" />
+    <script src="js/jquery.validate.min.js" type="text/javascript"></script>
+    <script src="js/jquery.znice.validate.js" type="text/javascript"></script>
+    <script src="js/jquery.znice.js" type="text/javascript"></script>
+
+    <link rel="stylesheet" type="text/css" href="fancybox/jquery.fancybox.css" media="all" />
+    <script src="fancybox/jquery.fancybox.js" type="text/javascript"></script>
+
+    <script src="js/slick.js" type="text/javascript"></script>
+     <script src="js/scr.js" type="text/javascript"></script>
+
+    <!--[if lt IE 9]>
+        <script>
+        document.createElement('header');
+        document.createElement('nav');
+        document.createElement('section');
+        document.createElement('article');
+        document.createElement('aside');
+        document.createElement('footer');
+        document.createElement('time');
+        </script>
+        <script src="js/pie.js" type="text/javascript"></script>
+    <![endif]-->
+
+    <!--[if lt IE 8]><script src="js/oldie/warning.js"></script><script>window.onload=function(){e("js/oldie/")}</script><![endif]-->
+</head>
+<body>
+    <!---BEGIN HEADER -->
+    <header class="header">
+        <div class="mbox">
+            <div class="header-wrap">
+                <div class="header-full-version">
+                    <a href="#">Полная версия сайта</a>
+                </div>
+                <div class="header-middle-row cfix">
+                    <div class="header-middle-item">
+                        <a href="#">
+                            <img src="images/header-logo.png" alt="">
+                        </a>
+                    </div>
+                    <div class="header-middle-item">
+                        <div class="header-middle-item-top">
+                            <a href="#" onclick="return add_favorite(this);">
+                                <span><img src="images/header-star.png" alt=""></span>Добавить в закладки
+                            </a>
+                        </div>
+                        <div class="header-middle-item-middle">
+                            <span><img src="images/header-item-time.png" alt=""></span>Пн-Вс&nbsp;10-19
+                        </div>
+                        <div class="header-middle-item-bottom">
+                            <a href="tel:84955083862">8&nbsp;(495)&nbsp;508&nbsp;38&nbsp;62</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="header-menu">
+                    <div class="header-menu-wrap">
+                        <div class="header-menu-row cfix">
+                            <div class="header-menu-button">
+                                <a href="#">
+                                    <img src="images/header-menu-butter.png" alt="">
+                                </a>
+                            </div>
+                            <div class="header-menu-search">
+                                <div class="header-menu-search-wrap">
+                                    <input type="text" placeholder="Быстрый поиск...">
+                                </div>
+                            </div>
+                            <div class="header-menu-cart">
+                                <a href="#">
+                                    <img src="images/header-menu-cart.png" height="39" width="52" alt="">
+                                </a>
+                            </div>
+                        </div>
+                        <div class="header-menu-main">
+                            <div class="header-menu-main-wrap">
+                                <ul>
+                                    <li class="has-submenu">
+                                        <a href="#">
+                                            <span>Икра</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Живая рыба</a></li>
+                                            <li><a href="#">Живые раки</a></li>
+                                            <li><a href="#">Краб</a></li>
+                                            <li><a href="#">Лангустины</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="#">
+                                            <span>Рыба</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">2Живая рыба</a></li>
+                                            <li><a href="#">2Живые раки</a></li>
+                                            <li><a href="#">2Краб</a></li>
+                                            <li><a href="#">2Лангустины</a></li>
+                                            <li><a href="#">2Омар</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="#">
+                                            <span>Живая продукция</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">3Живая рыба</a></li>
+                                            <li><a href="#">3Живые раки</a></li>
+                                            <li><a href="#">3Краб</a></li>
+                                            <li><a href="#">3Лангустины</a></li>
+                                            <li><a href="#">3Омар</a></li>
+                                        </ul>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="#">
+                                            <span>Морепродукты</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">4Живая рыба</a></li>
+                                            <li><a href="#">4Живые раки</a></li>
+                                            <li><a href="#">4Краб</a></li>
+                                            <li><a href="#">4Лангустины</a></li>
+                                            <li><a href="#">4Омар</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Экзотика</span>
+                                        </a>
+                                    </li>
+                                    <li class="has-submenu">
+                                        <a href="#">
+                                            <span>Аксессуары</span>
+                                        </a>
+                                        <ul class="sub-menu">
+                                            <li><a href="#">Живая рыба</a></li>
+                                            <li><a href="#">Живые раки</a></li>
+                                            <li><a href="#">Краб</a></li>
+                                            <li><a href="#">Лангустины</a></li>
+                                            <li><a href="#">Омар</a></li>
+                                        </ul>
+                                    </li>
+                                    <li>
+                                        <a href="#">
+                                            <span>Подарочный набор</span>
+                                        </a>
+                                    </li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <!---END HEADER -->
+    <div class="recept-item">
+        <div class="mbox">
+            <div class="recept-item-wrap">
+                <div class="recepts-title title-text-blue">
+                    Рецепты
+                </div>
+                <div class="recept-item-desc">
+                    <div class="recepts-items-img">
+                        <img src="images/recepts-items-img-1.jpg" alt="">
+                    </div>
+                    <div class="recepts-items-descr">
+                        <span>Запеченная в духовке сайра в горшочках</span>
+                    </div>
+                    <div class="recept-item-middle">
+                        <div class="recept-item-ingredients">
+                            <div class="ingredients-title">Ингредиенты:</div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Рис для суши</div>
+                                <div class="ingredients-item">200г</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Вода</div>
+                                <div class="ingredients-item">250г</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Вода</div>
+                                <div class="ingredients-item">250г</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Уксус рисовый </div>
+                                <div class="ingredients-item">30г</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Водоросли комбу</div>
+                                <div class="ingredients-item">1полоска</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Соль </div>
+                                <div class="ingredients-item">1/4ч.л</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Сахар </div>
+                                <div class="ingredients-item">1ст.л</div>
+                            </div>
+                            <div class="ingredients-row cfix">
+                                <div class="ingredients-item">Кадка для риса</div>
+                                <div class="ingredients-item">1шт</div>
+                            </div>
+                        </div>
+                        <div class="recepts-items-text">
+                            <p>Lorem ipsum dolor sit amet, vis ea brute philosophia, nullam voluptatibus sea ei. Dicam quaeque in vim, quo id alii vitae singulis. Dicta solet perfecto ad his, ius eu ubique constituam. Per eu vitae soleat. Dignissim persecuti moderatius te eam, eligendi mnesarchum nec in. Mel id omittam probatus.</p>
+                            <p>Sint principes persequeris nam id. In quando euismod efficiantur eam. Est modo volumus ad. Eum soleat equidem no, ad pri prompta alterum. Aliquid definiebas vix in, consul saperet periculis pri id.</p>
+                            <p>Et sed mazim equidem. Falli delenit insolens per id, atqui euripidis in cum. Movet simul ne mea, ex sit affert ignota laboramus, et vel dolor partem. Eu erat feugiat vel, qui ex commodo appareat. Et mel nisl verear, has brute nullam suscipit et. Nam eu mucius audire.</p>
+                            <p>Ius eu deleniti appetere democritum, vis libris deserunt id. Erat audire indoctum cu mei, nec facete detracto ocurreret ut. Id mnesarchum conclusionemque nec, ex eum brute munere cotidieque. Harum aperiri cu pro.</p>
+                        </div>
+                    </div>
+                    <div class="recept-item-bottom">
+                        <div class="recept-item-time">
+                            <div class="recept-item-time-img">
+                                <img src="images/recept-item-time-img.png" alt="">
+                            </div>
+                            <div class="recept-item-time-text">
+                                <p>приготовление</p>
+                                <p><span>30 мин.</span></p>
+                            </div>
+                        </div>
+                        <div class="item-complexity-wrap">
+                            <div class="recept-item-complexity-text">
+                                    Сложность: <span>Несложный</span>
+                                </div>
+                            <div class="recept-item-complexity" data-rank="3">
+                                <div class="item-complexity-max"></div>
+                                <div class="item-complexity"></div>
+                            </div>
+                        </div>
+                        <div class="block-social">
+                           <div class="social-button">
+                               <div class="social-share">
+                                   <img src="images/social-share-img.png" alt="">
+                                   <span>Поделиться</span>
+                               </div>
+                               <div class="social-item-wrap">
+                                   <div class="social-item">
+                                       <a href="#">
+                                           <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                           <span class="social-item-name">SocialName</span>
+                                       </a>
+                                   </div>
+                                   <div class="social-item">
+                                       <a href="#">
+                                           <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                           <span class="social-item-name">SocialName</span>
+                                       </a>
+                                   </div>
+                                   <div class="social-item">
+                                       <a href="#">
+                                           <span class="social-item-img"><img src="images/footer-text-bottom-item-1.png" alt=""></span>
+                                           <span class="social-item-name">SocialName</span>
+                                       </a>
+                                   </div>
+                               </div>
+                           </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="information-button cfix">
+                    <div class="information-button-back">
+                        <a href="#">
+                            <span>Назад</span>
+                        </a>
+                    </div>
+                    <div class="information-button-next">
+                        <a href="#">
+                            <span>Следующий рецепт</span>
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+    <!---BEGIN FOOTER -->
+    <footer class="footer">
+        <div class="mbox">
+            <div class="footer-wrap">
+                <div class="footer-top-line"></div>
+
+                <div class="footer-visited-tovars">
+                    <div class="visited-tovars-wrap">
+                        <div class="visited-tovars-title">Просмотренные товары</div>
+                        <div class="carousel" data-show="2" data-dots="false">
+                            <div class="carousel-item">
+                                <div class="category-item-img">
+                                    <a href="#">
+                                        <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                    </a>
+                                </div>
+                                <div class="category-item-title">
+                                    <a href="#">Красная икра лососевая "Макаров"</a>
+                                </div>
+                                <div class="category-item-price">650 руб.</div>
+                                <div class="category-item-in-bucket">
+                                    <a href="" class="button blue-button">
+                                        <span class="carousel-button-img"></span>
+                                        <span class="carousel-button-text">В корзину</span>
+                                    </a>
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="category-item-img">
+                                  <a href="#">
+                                      <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                  </a>
+                              </div>
+                              <div class="category-item-title">
+                                  <a href="#">Красная икра лососевая "Макаров"</a>
+                              </div>
+                              <div class="category-item-price">650 руб.</div>
+                              <div class="category-item-in-bucket">
+                                  <a href="" class="button blue-button">
+                                      <span class="carousel-button-img"></span>
+                                      <span class="carousel-button-text">В корзину</span>
+                                  </a>
+                              </div>
+                            </div>
+                            <div class="carousel-item">
+                              <div class="category-item-img">
+                                  <a href="#">
+                                      <img src="images/footer-visited-tovars-img.jpg" alt="" />
+                                  </a>
+                              </div>
+                              <div class="category-item-title">
+                                  <a href="#">Красная икра лососевая "Макаров"</a>
+                              </div>
+                              <div class="category-item-price">650 руб.</div>
+                              <div class="category-item-in-bucket">
+                                  <a href="" class="button blue-button">
+                                      <span class="carousel-button-img"></span>
+                                      <span class="carousel-button-text">В корзину</span>
+                                  </a>
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-letter-form">
+                    <div class="footer-letter-form-wrap">
+                        <div class="footer-letter-form-title">
+                            Подпишись!<span>Получи скидку 5%</span>
+                            и будь в курсе новых акций!
+                        </div>
+                        <div class="footer-letter-form-main cfix">
+                            <form id="">
+                                <div class="footer-letter-form-input">
+                                    <input type="text" placeholder="e-mail">
+                                </div>
+                                <div class="footer-letter-form-submit">
+                                    <input type="submit" value="Подписаться">
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+                <div class="footer-text-bottom">
+                    <div class="footer-text-bottom-item"><span>Интернет-магазин морских деликатесов.</span></div>
+                    <div class="footer-text-bottom-item">
+                        <img src="images/footer-text-bottom-item-1.png" alt=""><span>8 (495) 508 38 62 </span>
+                    </div>
+                    <div class="footer-text-bottom-item">
+                        <img src="images/footer-text-bottom-item-2.png" alt=""><span>г. Москва, ул.Боровая д.7, стр.2  </span>
+                    </div>
+                </div>
+                <div class="footer-last-button cfix">
+                    <div class="footer-last-button-item">
+                        <div class="footer-last-button-call">
+                            <a href="#">
+                                <img src="images/footer-last-button-item-1.png"  alt="">
+                                <span>Заказать<br>
+                                обратный звонок</span>
+                            </a>
+                        </div>
+                    </div>
+                    <div class="footer-last-button-item">
+                        <div class="footer-last-button-up">
+                            <a href="#">
+                                <img src="images/button-up.png"  alt="">
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </footer>
+    <!---END FOOTER -->
+</body>
+</html>
