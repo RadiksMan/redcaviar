@@ -72,6 +72,7 @@ p{margin:0;}
 
 .header-middle-item>div{}
 .header-middle-item>div span,.header-middle-item>div a{display: inline-block;vertical-align: middle;color: #999999;font-size: 25px;}
+.header-middle-item>div a{text-align: center;}
 .header-middle-item>div span{vertical-align: baseline;}
 .header-middle-item>div span img{padding-right: 10px;}
 .header-middle-item-top{padding-top: 17px;padding-left: 26px;}
@@ -134,7 +135,10 @@ div.header-middle-item-bottom a{color: #35a9d4;font-size: 35px;font-family: 'Tre
 .footer-text-bottom-item span{display: inline-block;vertical-align: middle;}
 .footer-text-bottom-item img{margin-right: 5px;display: inline-block;vertical-align: middle;}
 .footer-text-bottom{padding-top: 42px;padding-bottom: 27px;}
-.footer-last-button-item{float: left;width: 50%;}
+.footer-last-button-item{float: left;}
+.footer-last-button-item:first-child{width: 74%;}
+.footer-last-button-item:last-child{width: 26%;}
+
 .footer-last-button-item a{display: inline-block;text-decoration: none;cursor: pointer;}
 .footer-last-button-call img,.footer-last-button-call span{display: inline-block;vertical-align: middle;}
 .footer-last-button-call img{margin-right: 15px;}
@@ -601,8 +605,9 @@ font-family: Tahoma;line-height: 24px;}
     .numerical-input input{width: 60px;height: 48px;margin-bottom: 20px;}
 
     /* /media bucket */
-}
-@media screen and (max-width:320px){
+
+
+
     .header-middle-item{float: none;width: 100%;text-align: center;}
     .header-middle-item-top{padding-left: 0;}
     .header-middle-item-middle{text-align: center;}
@@ -637,4 +642,11 @@ font-family: Tahoma;line-height: 24px;}
     .recept-item-wrap .information-button {padding: 0px 28px;}
     .visited-tovars-slider{padding: 0px 45px;}
     .visited-tovars-slider .category-item {width: 50%; float: left; padding-bottom: 5px;}
+    .footer-last-button {padding: 35px 16px 29px 16px;}
+    .footer-last-button-call span{font-size: 17px;}
+    .footer-text-bottom-item {font-size: 20px;}
+    .footer-text-bottom{padding-left: 5px;padding-right: 5px;}
+}
+@media screen and (max-width:320px){
+
 }
