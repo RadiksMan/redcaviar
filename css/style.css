@@ -554,12 +554,12 @@ font-family: Tahoma;line-height: 24px;}
     .numerical-input input{width: 80px;height: 58px;}
 
     /* /media bucket */
+    .footer-letter-form-submit input{font-size: 20px;}
 }
 @media screen and (max-width:480px){
     div.header-middle-item-bottom a{font-size: 29px;}
     .footer-top-desc-item.item-1,.footer-top-desc-item.item-2{width: 100%;padding-bottom: 5%;}
     .footer-top-desc-item.item-1 .footer-top-desc-item-img{padding: 0;}
-    .footer-letter-form-submit input{font-size: 20px;}
     .delivery-text p{font-size: 23px;line-height: 25px;margin-bottom: 30px;}
     .category-middle {padding: 0px 15px 34px 15px;}
     .category-item-wrap{padding: 0 10px;}
